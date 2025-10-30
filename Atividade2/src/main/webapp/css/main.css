@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+body {
+	font-family: 'Arial', sans-serif;
+	background-color: #f8f1f1; /* Tom pastel suave */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+}
+
+h\:form {
+	background-color: #fffaf0; /* Fundo pastel claro */
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+	width: 350px;
+	text-align: center;
+}
+
+h\:panelGrid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 10px;
+}
+
+h\:outputLabel {
+	font-size: 14px;
+	font-weight: bold;
+	color: #6d5d5d; /* Tom pastel para o texto */
+}
+
+.input-text {
+	width: 100%;
+	height: 35px;
+	padding: 8px;
+	font-size: 16px;
+	border: 1px solid #c5a5a5; /* Borda delicada */
+	border-radius: 5px;
+	background-color: #ffe5d9; /* Fundo pastel suave */
+	transition: all 0.3s ease-in-out;
+}
+
+.input-text:focus {
+	border-color: #af7a7a;
+	outline: none;
+	background-color: #ffdbcc;
+}
+
+h\:commandButton {
+	width: 100%;
+	height: 40px;
+	background-color: #d7a9a9; /* Tom pastel suave */
+	color: white;
+	border: none;
+	border-radius: 8px;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+
+h\:commandButton:hover {
+	background-color: #b88c8c;
+}
