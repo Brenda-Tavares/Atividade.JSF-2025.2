@@ -1,0 +1,64 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f7fa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h:form, form {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+h:panelGrid, table {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+h:outputLabel {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+h:inputText {
+    width: 100%;
+    padding: 0.6rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+}
+
+h:commandButton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.7rem 1.2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+h:commandButton:hover {
+    background-color: #0056b3;
+}
+
+h:dataTable, table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+h:column, td {
+    padding: 0.5rem;
+    border-bottom: 1px solid #ddd;
+}
