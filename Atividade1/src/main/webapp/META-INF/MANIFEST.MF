@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Class-Path: 
+	<!-- Comentário adicionado neste arquivo, pois nos demais alteraria o código. O que tornaria divergente da proposta do projeto-->
+
